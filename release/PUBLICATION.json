@@ -1,0 +1,77 @@
+{
+  "status": "published",
+  "verified_utc": "2026-11-07T21:04:41.285024+00:00",
+  "repository": "https://github.com/EgorKorotaev/heroes-v-spellbook12",
+  "owner": "EgorKorotaev",
+  "visibility": "public",
+  "default_branch": "main",
+  "issues_enabled": true,
+  "license": "MIT",
+  "release": {
+    "url": "https://github.com/EgorKorotaev/heroes-v-spellbook12/releases/tag/v0.1.0-beta.2",
+    "id": 437841458,
+    "tag": "v0.1.0-beta.2",
+    "tag_commit": "7797051c4acd3738d826dfd36ad355ec1c177152",
+    "prerelease": true,
+    "draft": false,
+    "published_at": "2026-11-07T21:03:53Z"
+  },
+  "verification": {
+    "all_eight_remote_assets_downloaded_before_publication_and_sha256_verified": true,
+    "public_api_without_credentials": true,
+    "both_player_zips_and_checksum_file_downloaded_without_credentials": true,
+    "original_release_tags_preserved": true,
+    "release_packages_not_rebuilt_for_publication": true,
+    "main_has_later_public_link_documentation": true
+  },
+  "assets": [
+    {
+      "name": "FEEDBACK.txt",
+      "bytes": 2651,
+      "sha256": "ea301d4e9838a2c0b15e211fc57cdbca5ca31ef4a98177629bf3ffe5cd5ca76a",
+      "url": "https://github.com/EgorKorotaev/heroes-v-spellbook12/releases/download/v0.1.0-beta.2/FEEDBACK.txt"
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "bytes": 672,
+      "sha256": "b3f27a72f7211506cc918f61b0f01409ef3e6e2a3bb6b4c0e1e9b97295fc622e",
+      "url": "https://github.com/EgorKorotaev/heroes-v-spellbook12/releases/download/v0.1.0-beta.2/SHA256SUMS.txt"
+    },
+    {
+      "name": "Spellbook12-0.1.0-beta.2-H55-RC19k.zip",
+      "bytes": 100879,
+      "sha256": "3a75603e2a005f4cd90c3eaace3378620271c70e7dab903ae72d0b066d4aa616",
+      "url": "https://github.com/EgorKorotaev/heroes-v-spellbook12/releases/download/v0.1.0-beta.2/Spellbook12-0.1.0-beta.2-H55-RC19k.zip"
+    },
+    {
+      "name": "Spellbook12-0.1.0-beta.2-Handoff.zip",
+      "bytes": 9830840,
+      "sha256": "3160f65073b80a8aae798e96d3c95de8bd0565a88d72557e28b01c6e9220983b",
+      "url": "https://github.com/EgorKorotaev/heroes-v-spellbook12/releases/download/v0.1.0-beta.2/Spellbook12-0.1.0-beta.2-Handoff.zip"
+    },
+    {
+      "name": "Spellbook12-0.1.0-beta.2-Source.zip",
+      "bytes": 4819651,
+      "sha256": "3ddcb44ba6eee4b441cbdcc537e311dd515c17e1b3fbefefc48c50d62a2499d4",
+      "url": "https://github.com/EgorKorotaev/heroes-v-spellbook12/releases/download/v0.1.0-beta.2/Spellbook12-0.1.0-beta.2-Source.zip"
+    },
+    {
+      "name": "Spellbook12-0.1.0-beta.2-Universe.zip",
+      "bytes": 100959,
+      "sha256": "ae4a2e5aa1f902155c72c755732b308b45f8f490251310af166035c60766abc6",
+      "url": "https://github.com/EgorKorotaev/heroes-v-spellbook12/releases/download/v0.1.0-beta.2/Spellbook12-0.1.0-beta.2-Universe.zip"
+    },
+    {
+      "name": "Spellbook12-0.1.0-beta.2.bundle",
+      "bytes": 4813510,
+      "sha256": "9c2b714b01ec182bfc55de22850a3dd2d1ef48b6b61f00cc168d3bdf2b47d0d5",
+      "url": "https://github.com/EgorKorotaev/heroes-v-spellbook12/releases/download/v0.1.0-beta.2/Spellbook12-0.1.0-beta.2.bundle"
+    },
+    {
+      "name": "VALIDATION.txt",
+      "bytes": 2615,
+      "sha256": "530e5ca2067fdbfe10a86af37d40cb3de81cf2a27f5df384f81ad828e98932e2",
+      "url": "https://github.com/EgorKorotaev/heroes-v-spellbook12/releases/download/v0.1.0-beta.2/VALIDATION.txt"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "version": "0.1.0-beta.2",
-  "status": "public_repository_created_release_preparing",
+  "status": "public_prerelease_published",
   "audience": "Public repository; beta.2 prerelease retains validated private-candidate artifacts",
   "license": "MIT for authored code; generated game resources documented separately",
   "tasks": [
@@ -39,11 +39,11 @@
     },
     {
       "id": "public_repository_and_prerelease",
-      "status": "in_progress",
+      "status": "completed",
       "scope": "Public main and unchanged beta.1/beta.2 tags; publish verified beta.2 assets with working issue/download links"
     }
   ],
-  "remote_publication": "https://github.com/EgorKorotaev/heroes-v-spellbook12; public creation authorized and correct account confirmed",
+  "remote_publication": "https://github.com/EgorKorotaev/heroes-v-spellbook12",
   "working_games": "Do not deploy to the working Universe/H55 copies during preparation",
-  "last_checkpoint": "Public repository created under the confirmed EgorKorotaev account. Local publication docs are ready; no game/runtime/installer changes. Prepared beta.2 archives and original tags remain unchanged. Push, asset verification and prerelease publication are next."
+  "last_checkpoint": "Public repository and beta.2 prerelease published under confirmed EgorKorotaev account. Eight uploaded artifacts verified by SHA-256 after download; public unauthenticated API and both player downloads verified. Both release tags remain unchanged; main contains later public-link documentation. No game components changed."
 }
