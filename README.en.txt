@@ -53,7 +53,9 @@ Feedback and contributions
 Bug reports, ideas, testing, translations, documentation and code are welcome.
 On GitHub, use Issues -> New issue -> Bug report / Feature request. If you
 received a private ZIP, fill in the included FEEDBACK.txt and return it to the
-person who supplied the archive. The public repository is not published yet.
+person who supplied the archive.
+Repository: https://github.com/EgorKorotaev/heroes-v-spellbook12
+Issues: https://github.com/EgorKorotaev/heroes-v-spellbook12/issues
 Include game/mod versions, steps, expected/actual result and, for visual issues,
 window size and a screenshot or short clip. Do not attach game EXEs/DLLs,
 full archives or personal profiles. CONTRIBUTING.md in the source explains

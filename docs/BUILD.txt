@@ -5,6 +5,14 @@ The build runs on Windows or Linux/WSL. It reads data/data.pak and the exact
 edition's executable. Universe also reads its installed spellbook text templates
 from texts.pak and, if present, universe_mod_texts_ru.pak.
 
+Published beta.2 packages are built from the immutable release snapshot:
+  git clone https://github.com/EgorKorotaev/heroes-v-spellbook12.git
+  cd heroes-v-spellbook12
+  git switch --detach v0.1.0-beta.2
+Use that tag for the hashes in release/reproducibility.json. The main branch
+can contain later documentation changes, including public download/issue links.
+Use a new working branch from main when contributing changes.
+
 Windows PowerShell, from a clean source checkout:
   py -3 -m venv .venv
   .venv\Scripts\python.exe -m pip install -r requirements.txt

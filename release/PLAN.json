@@ -1,7 +1,7 @@
 {
   "version": "0.1.0-beta.2",
-  "status": "ready_for_private_handoff",
-  "audience": "Private handoff to one player and their AI, public GitHub candidate later",
+  "status": "public_repository_created_release_preparing",
+  "audience": "Public repository; beta.2 prerelease retains validated private-candidate artifacts",
   "license": "MIT for authored code; generated game resources documented separately",
   "tasks": [
     {
@@ -36,9 +36,14 @@
       "id": "community_presentation",
       "status": "completed",
       "scope": "Authentic before/after captures, local badges, warranty/compatibility notices, contributor guide and bug/feature/PR templates; feedback form in both player ZIPs"
+    },
+    {
+      "id": "public_repository_and_prerelease",
+      "status": "in_progress",
+      "scope": "Public main and unchanged beta.1/beta.2 tags; publish verified beta.2 assets with working issue/download links"
     }
   ],
-  "remote_publication": "Not performed; concrete candidate first",
+  "remote_publication": "https://github.com/EgorKorotaev/heroes-v-spellbook12; public creation authorized and correct account confirmed",
   "working_games": "Do not deploy to the working Universe/H55 copies during preparation",
-  "last_checkpoint": "beta.2 source complete: local badges, authentic before/after captures, explicit notices and community templates. Both player ZIPs match clean-clone builds byte for byte; 12 source checks and 36 fresh Windows checks passed. Native/resources/Windows scripts match beta.1. Lab restored. Final tagged source is ready for source ZIP, bundle and private handoff export; no remote publication."
+  "last_checkpoint": "Public repository created under the confirmed EgorKorotaev account. Local publication docs are ready; no game/runtime/installer changes. Prepared beta.2 archives and original tags remain unchanged. Push, asset verification and prerelease publication are next."
 }

@@ -11,6 +11,11 @@
 Косметический мод для **Universe 2.0.1** и **Heroes 5.5 RC19k** на Windows.
 Два столбца и три ряда на каждом листе; родные рисунки, миниатюры и перелистывание.
 
+**Скачать beta.2:**
+[Universe](https://github.com/EgorKorotaev/heroes-v-spellbook12/releases/download/v0.1.0-beta.2/Spellbook12-0.1.0-beta.2-Universe.zip) ·
+[Heroes 5.5 RC19k](https://github.com/EgorKorotaev/heroes-v-spellbook12/releases/download/v0.1.0-beta.2/Spellbook12-0.1.0-beta.2-H55-RC19k.zip) ·
+[Все файлы и описание выпуска](https://github.com/EgorKorotaev/heroes-v-spellbook12/releases/tag/v0.1.0-beta.2)
+
 | Без Spellbook12 · 6 заклинаний | С Spellbook12 · 12 заклинаний |
 | :---: | :---: |
 | [![Исходная книга Universe: шесть заклинаний](docs/images/Universe-before.png)](docs/images/Universe-before.png) | [![Книга Spellbook12: двенадцать заклинаний](docs/images/Universe-after.png)](docs/images/Universe-after.png) |
@@ -71,7 +76,7 @@ Python игроку не нужен. Для удаления: закрой иг�
 Нашёл съехавшую подсказку, странный клик или артефакт переворота? Есть идея,
 как сделать книгу удобнее? **Такие сообщения помогают развивать мод.**
 
-- На GitHub: **Issues → New issue → Ошибка / Bug report** или
+- На GitHub: **[Issues](https://github.com/EgorKorotaev/heroes-v-spellbook12/issues) → New issue → Ошибка / Bug report** или
   **Предложение / Feature request**. Сначала посмотри, нет ли такого сообщения.
 - Если получил архив лично: заполни [FEEDBACK.txt](FEEDBACK.txt) и передай
   тому, от кого получил мод, в том же канале. GitHub-аккаунт для этого не нужен.
@@ -106,5 +111,9 @@ MIT относится к нашему оригинальному коду и д
 не входят. Неофициальный проект сообщества; поддержки от авторов игры или
 глобальных модов этим выпуском не заявляется.
 
-Подготовлены локальные player ZIP, исходники и Git bundle. Публичный репозиторий
-и GitHub Release пока не опубликованы; формы Issues подготовлены для публикации.
+Код и история — в [публичном репозитории](https://github.com/EgorKorotaev/heroes-v-spellbook12).
+Архивы установки, исходники и Git bundle — в
+[предварительном выпуске beta.2](https://github.com/EgorKorotaev/heroes-v-spellbook12/releases/tag/v0.1.0-beta.2).
+Готовые пакеты собраны из тега `v0.1.0-beta.2`; для точного повторения сборки
+используй этот тег. Документы в архивах фиксируют состояние на дату сборки;
+актуальные ссылки находятся на этой странице.

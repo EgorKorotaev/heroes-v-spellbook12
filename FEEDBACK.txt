@@ -1,8 +1,9 @@
 Spellbook12 — ошибка или предложение / bug or feature request
 
 На GitHub: Issues -> New issue -> Ошибка / Bug report или Предложение /
-Feature request. Проверь, нет ли похожего сообщения. Публичный репозиторий
-пока не опубликован. Если получил ZIP лично, заполни подходящий шаблон ниже
+Feature request. Проверь, нет ли похожего сообщения.
+https://github.com/EgorKorotaev/heroes-v-spellbook12/issues
+Если получил ZIP лично, заполни подходящий шаблон ниже
 и передай тому, от кого получил мод. Можно писать по-русски или по-английски.
 
 ОШИБКА / BUG REPORT
