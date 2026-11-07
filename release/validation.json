@@ -85,5 +85,12 @@
     "gameplay_evidence_from": "v0.1.0-beta.1; unchanged native code and game resources",
     "fresh_visual_comparison": "presentation.json",
     "resource_native_and_installer_byte_equivalence": "beta2-equivalence.json"
+  },
+  "community_presentation": {
+    "documents_and_forms": "48 local links checked; YAML form structure and SVG XML parsed; README rendered in Chromium with local assets and visually reviewed",
+    "feedback_in_both_player_packages": true,
+    "screenshot_provenance": "presentation.json",
+    "fresh_windows_roundtrip_version": "0.1.0-beta.2",
+    "component_equivalence": "beta2-equivalence.json"
   }
 }

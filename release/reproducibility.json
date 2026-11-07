@@ -1,31 +1,33 @@
 {
+  "version": "0.1.0-beta.2",
   "status": "passed",
   "clean_clone_unit_checks": 12,
   "build_environment": "same pinned Python/pefile/zlib environment; PS line endings normalized by builder",
   "archives": [
     {
-      "archive": "Spellbook12-0.1.0-beta.1-Universe.zip",
-      "sha256": "c7e95d661a700c19e54e0efb447ff812689f6b5dd973970f48ef0bbcabe91753",
-      "bytes": 97268,
+      "archive": "Spellbook12-0.1.0-beta.2-Universe.zip",
+      "sha256": "ae4a2e5aa1f902155c72c755732b308b45f8f490251310af166035c60766abc6",
+      "bytes": 100959,
       "clean_clone_byte_identical": true
     },
     {
-      "archive": "Spellbook12-0.1.0-beta.1-H55-RC19k.zip",
-      "sha256": "994dae1c4d781726bed8f630daa1806714b93afe4c870c75f02473e950a3a63b",
-      "bytes": 97186,
+      "archive": "Spellbook12-0.1.0-beta.2-H55-RC19k.zip",
+      "sha256": "3a75603e2a005f4cd90c3eaace3378620271c70e7dab903ae72d0b066d4aa616",
+      "bytes": 100879,
       "clean_clone_byte_identical": true
     }
   ],
   "normalized_build_inputs": {
-    "CHANGELOG.txt": "feb0f97129bcca52b02d9b76f8109f0219802ca53827adca0b9cf6786e2c7e19",
+    "CHANGELOG.txt": "0175649f6974a6a9864addfdddac33522dd49db20705544328ab380b05441f44",
+    "FEEDBACK.txt": "ea301d4e9838a2c0b15e211fc57cdbca5ca31ef4a98177629bf3ffe5cd5ca76a",
     "LICENSE.txt": "49ee79c99bfc0cc67f5957b054c0c11e731434cbc7284d65f6be01ee0ad68f28",
-    "NOTICES.txt": "20d25d72ea49409693ec5f4bee493555cbf8811059d35eef70640029546c909f",
-    "README.en.txt": "3eb4589baf8273a26577c381ac8a3a858d9937f997ed7820fe35920e3e869b15",
-    "README.txt": "3e1e87ff4d8212e4101acda6af960522f4c7c451a2cb7713af7fd400e7cf0d00",
-    "VALIDATION.txt": "eedbb649c050f1d629ea4b42c963f0f4754c55bf43de544a0b08dab0f267ca9a",
+    "NOTICES.txt": "cdc55493dcb4add70ab59c902cbbf70d6563e2858487ba83dd0b290f2374698f",
+    "README.en.txt": "a5a480512dc7b4fad9a12878ce6db986d1c7b65234ed055d3a3a42047d51a56b",
+    "README.txt": "5e1b312cbdf6f88deafc9c229c33fcde2048ab033ef93fa7566d6b3bd278c238",
+    "VALIDATION.txt": "530e5ca2067fdbfe10a86af37d40cb3de81cf2a27f5df384f81ad828e98932e2",
     "build.py": "ac1ef997ad616c29ed5b6d3c835982e86b5c21b94472bd55fb0c7bbf8f7ec419",
-    "src/spellbook12/__init__.py": "378ff87bd0834eb69cde06da11fb037862620d75c387cb523c3ac2849de6238c",
-    "src/spellbook12/build.py": "d1a20b2364c5995966a6c968b07e7e2c0573ad2b28cf2d868efd8708cdaf6b20",
+    "src/spellbook12/__init__.py": "420a56b4959035ef35d28142d9a4a56173dbcaab774f97edde58c83682a8c52e",
+    "src/spellbook12/build.py": "a0445cc1976ce2de0e2e5122d0445b78ed52f302c730961a1ef11ab4d113df38",
     "src/spellbook12/geometry.py": "279344b8a8b8401ceab468e440f023a610d17c8e663dfe66c902004600f59a82",
     "src/spellbook12/h55.py": "4670c0f690850e9e8190f791a5b1aea21b6a9f5459d5ce1fb2dbcf48230e54ea",
     "src/spellbook12/native.py": "d91b3f89df537fe61b35922c012341f44539dd143e601328460fd03bc6b3fc43",
