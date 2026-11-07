@@ -73,5 +73,11 @@
     "working_game_exes_not_written": true,
     "working_game_archives_not_used_as_test_destinations": true,
     "h55_temporary_game_and_profile_removed": true
+  },
+  "reproducibility": {
+    "passed": true,
+    "report": "reproducibility.json",
+    "both_player_zips_byte_identical": true,
+    "clean_clone_unit_checks": 12
   }
 }

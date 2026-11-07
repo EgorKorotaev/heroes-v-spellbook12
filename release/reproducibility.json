@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "clean_clone_unit_checks": 12,
+  "build_environment": "same pinned Python/pefile/zlib environment; PS line endings normalized by builder",
+  "archives": [
+    {
+      "archive": "Spellbook12-0.1.0-beta.1-Universe.zip",
+      "sha256": "c7e95d661a700c19e54e0efb447ff812689f6b5dd973970f48ef0bbcabe91753",
+      "bytes": 97268,
+      "clean_clone_byte_identical": true
+    },
+    {
+      "archive": "Spellbook12-0.1.0-beta.1-H55-RC19k.zip",
+      "sha256": "994dae1c4d781726bed8f630daa1806714b93afe4c870c75f02473e950a3a63b",
+      "bytes": 97186,
+      "clean_clone_byte_identical": true
+    }
+  ],
+  "normalized_build_inputs": {
+    "CHANGELOG.txt": "feb0f97129bcca52b02d9b76f8109f0219802ca53827adca0b9cf6786e2c7e19",
+    "LICENSE.txt": "49ee79c99bfc0cc67f5957b054c0c11e731434cbc7284d65f6be01ee0ad68f28",
+    "NOTICES.txt": "20d25d72ea49409693ec5f4bee493555cbf8811059d35eef70640029546c909f",
+    "README.en.txt": "3eb4589baf8273a26577c381ac8a3a858d9937f997ed7820fe35920e3e869b15",
+    "README.txt": "3e1e87ff4d8212e4101acda6af960522f4c7c451a2cb7713af7fd400e7cf0d00",
+    "VALIDATION.txt": "eedbb649c050f1d629ea4b42c963f0f4754c55bf43de544a0b08dab0f267ca9a",
+    "build.py": "ac1ef997ad616c29ed5b6d3c835982e86b5c21b94472bd55fb0c7bbf8f7ec419",
+    "src/spellbook12/__init__.py": "378ff87bd0834eb69cde06da11fb037862620d75c387cb523c3ac2849de6238c",
+    "src/spellbook12/build.py": "d1a20b2364c5995966a6c968b07e7e2c0573ad2b28cf2d868efd8708cdaf6b20",
+    "src/spellbook12/geometry.py": "279344b8a8b8401ceab468e440f023a610d17c8e663dfe66c902004600f59a82",
+    "src/spellbook12/h55.py": "4670c0f690850e9e8190f791a5b1aea21b6a9f5459d5ce1fb2dbcf48230e54ea",
+    "src/spellbook12/native.py": "d91b3f89df537fe61b35922c012341f44539dd143e601328460fd03bc6b3fc43",
+    "src/spellbook12/resources.py": "b5c1f7bf11cc3b970545f46e97321625921bc1c1ff4e0968f5f61ad639e15c57",
+    "windows/Install.cmd": "8a9a1f8dc7534fa511603592fbe0c92a7f517d70d517f52969e85b9e58c8c635",
+    "windows/Install.ps1": "70c2af76d609a6b62dd7d492dfa86cf1970e15bd032bfd9ffbc259c75b23a077",
+    "windows/Launch.cmd": "fe8183dea7ec5f5ba7b49ad898bab203691785eaef5f11e87145141d495ddc5e",
+    "windows/Launch.ps1": "54800df17998f794708d2a624721a766f7ededfc265c0f12a26f95af0891ac13",
+    "windows/Spellbook12.psm1": "749c712638213cf9a2c5f6f862b86fb1b2e72ccbf87111fb34719108d90477ef",
+    "windows/Uninstall.cmd": "58d86b244afb5a814b03fe983f8c34733c6692969fd265540ec8b6126b6b1e52",
+    "windows/Uninstall.ps1": "b0eb703fee85f55d2351cd985316c12ef8c1dd408e67637f85d6f8b28226101f"
+  }
+}

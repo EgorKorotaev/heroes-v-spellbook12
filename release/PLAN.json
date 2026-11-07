@@ -1,6 +1,6 @@
 {
   "version": "0.1.0-beta.1",
-  "status": "validated_preparing_git_and_artifacts",
+  "status": "ready_for_private_handoff",
   "audience": "Private handoff to one player and their AI, public GitHub candidate later",
   "license": "MIT for authored code; generated game resources documented separately",
   "tasks": [
@@ -13,13 +13,14 @@
     },
     {
       "id": "installer",
-      "status": "completed_36_windows_checks",
+      "status": "completed",
       "scope": "Windows install/uninstall and launcher, no automatic window resize"
     },
     {
       "id": "tests",
-      "status": "12_unit_36_windows_and_both_live_checks_passed_clean_clone_pending",
-      "scope": "Clean-clone build; compatibility and ownership checks; Windows round trip"
+      "status": "completed",
+      "scope": "Clean-clone build; compatibility and ownership checks; Windows round trip",
+      "evidence": "release/validation.json; release/reproducibility.json; release/windows-checks.json"
     },
     {
       "id": "docs",
@@ -28,11 +29,11 @@
     },
     {
       "id": "delivery",
-      "status": "pending",
-      "scope": "Versioned ready ZIPs and source ZIP, local Git history, hashes and local release notes"
+      "status": "completed",
+      "scope": "Versioned player/source ZIPs and local Git bundle with checksums for private handoff; no remote publication"
     }
   ],
   "remote_publication": "Not performed; concrete candidate first",
   "working_games": "Do not deploy to the working Universe/H55 copies during preparation",
-  "last_checkpoint": "Conformed paper accepted in Universe and freshly checked in H55 combat; slot7 Fireball completed,1000->970.12unit+36Windowspassed.8ADRs+index ready. Universe controlled assets restored; own temporaryH55game/profile removed. Git/cleanclone/delivery pending."
+  "last_checkpoint": "Both engines checked in isolated games; 12 game-free checks and36 Windows checks passed. Final player ZIPs byte-identical to clean-clone builds. 8 ADRs and index committed. Temporary game/profile changes restored or removed. Local source ZIP/Git bundle and Windows handoff are the delivery stage; remote publication not performed."
 }

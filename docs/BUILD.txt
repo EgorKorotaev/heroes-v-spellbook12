@@ -22,6 +22,10 @@ Each build produces an unpacked player package and matching ZIP in dist/.
 choose a fresh output directory for a second build. Output inside the game
 folder is rejected. Building never starts the game or writes an executable.
 
+Reproducibility: the release player ZIPs were rebuilt from a clean Git clone
+and compared byte for byte. See release/reproducibility.json for hashes and
+normalized build inputs.
+
 Game-free checks:
   python -m unittest discover -s tests -v
 The tests use our authored native metadata and numeric tooltip anchors, not
