@@ -1,0 +1,37 @@
+name: Предложение / Feature request
+description: Идея для книги заклинаний / Suggest an improvement to the spellbook.
+title: "[Idea] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Идеи и эскизы приветствуются. Пиши по-русски или по-английски.
+        Мод посвящён книге: баланс, переводы всей игры и перенос кампаний — отдельные проекты.
+        Please describe the player problem; a technical implementation is optional.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Что неудобно / Player problem
+      description: В какой ситуации возникает неудобство? Есть ли похожее Issue?
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Как хочется / Desired outcome
+      description: Что должен увидеть или суметь сделать игрок?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Варианты и эскиз / Alternatives and sketch
+      description: Если рассматривал другие варианты, опиши их. Можно приложить изображение.
+    validations:
+      required: false
+  - type: input
+    id: environment
+    attributes:
+      label: Игра и версия мода / Game and mod version
+    validations:
+      required: false

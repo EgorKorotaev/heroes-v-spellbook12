@@ -1,4 +1,13 @@
-Spellbook12 0.1.0-beta.1 — 2026-11-07
+Spellbook12 0.1.0-beta.2 — 2026-11-07
+
+Presentation/documentation revision of beta.1: explicit warranty/compatibility
+notices, feedback/contributor templates, README badges and authentic comparison
+captures. Native callbacks, runtime manifests, all book resource members and
+Windows scripts are byte-identical to beta.1. Earlier gameplay checks below
+apply to those unchanged components; they are not a new full gameplay pass.
+The comparison is a fresh foreground capture of the same Universe test fixture,
+with both book layers disabled for BEFORE and the approved book active for AFTER.
+The lab was stopped and its temporary files restored afterward.
 
 PASSED: 12 game-free source checks; 36 Windows PowerShell 5.1 installer checks.
 The Windows tests include Unicode paths, modified files, forbidden destinations,

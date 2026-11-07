@@ -149,5 +149,7 @@
   ],
   "PowerShell": "5.1.26100.9818",
   "game_started": false,
-  "working_game_files_changed": false
+  "working_game_files_changed": false,
+  "version": "0.1.0-beta.2",
+  "scope": "Fresh Windows PowerShell 5.1 round trip of the beta.2 player packages; games not started"
 }

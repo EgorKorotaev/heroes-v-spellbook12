@@ -11,6 +11,11 @@ rights holders. Universe and Heroes 5.5 belong to their respective contributors.
 An installed, working game is required. The release modifies the running game
 and provides an authored derivative book geometry/layout overlay.
 
+Game screenshots in docs/images contain game artwork and are not relicensed
+under MIT. They document the actual original and modified UI; see that folder's
+README.md for capture provenance. Original badge SVGs in docs/badges are our
+authored documentation assets and are covered by the project's MIT license.
+
 The geometry format was researched using documentation from senyaak/homm5-editor:
 https://github.com/senyaak/homm5-editor/blob/main/docs/GEOMETRY_FORMAT.md
 That project is credited as a format reference, not included as a runtime library.

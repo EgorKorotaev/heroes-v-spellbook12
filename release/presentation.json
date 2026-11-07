@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-07",
+  "kind": "authentic_foreground_game_comparison",
+  "edition": "Universe 2.0.1",
+  "exe_sha256": "88c9dc6107b9bced0649924a86360f1c56397ee00de0413f6f2b08f865ed5519",
+  "fixture": {
+    "build_id": "d40d2e14edf98932",
+    "hero": "Zehir",
+    "case": "combat",
+    "book": "combat spells, first spread"
+  },
+  "capture": {
+    "window_pixels": [
+      1280,
+      960
+    ],
+    "capture_pixels": [
+      960,
+      720
+    ],
+    "published_crop": [
+      0,
+      75,
+      960,
+      595
+    ],
+    "published_pixels": [
+      960,
+      520
+    ],
+    "processing": "identical rectangular crop only; no compositing, recoloring or content retouching",
+    "visually_inspected": true
+  },
+  "before": {
+    "image": "docs/images/Universe-before.png",
+    "sha256": "92cb68f7c805e46ddf857e350035a5f5e601f5d6c0385a77566368a7cf132311",
+    "raw_capture_sha256": "d85eeaf0c948a42de763e6a52bb42ea8d3f161c5f9e8fa90db51383b842a76e4",
+    "spellbook12_resource_present": false,
+    "spellbook12_runtime_applied": false,
+    "native_camera": true,
+    "slots_visible": 6
+  },
+  "after": {
+    "image": "docs/images/Universe-after.png",
+    "sha256": "1bb92e8de87a12b18090e366ee139216115bf7f4cfb1658ed70911f490bacf2d",
+    "raw_capture_sha256": "d49438cce012e3995b9d1d5ad7a7ae4bf22a5989e0ab1e8df361aa201e99186e",
+    "book_resource_sha256": "0bc1c1b194a9178eb4d3425ed31e756473874376656f2f4053868ee15ee43908",
+    "native_callback_sha256": "548ea0a99371d7da51dff0e8e8ca240f5ef3c901ce631a0a66e2b3cd49d8fb92",
+    "slots_visible": 12
+  },
+  "restoration": {
+    "isolated_lab_stopped": true,
+    "two_temporary_assets_restored_by_sha256": true,
+    "game_executable_and_native_input_files_unchanged": true,
+    "working_games_untouched": true
+  }
+}

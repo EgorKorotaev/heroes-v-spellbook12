@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0-beta.1",
+  "version": "0.1.0-beta.2",
   "date": "2026-11-07",
   "status": "private_candidate_validated",
   "unit_checks": {
@@ -79,5 +79,11 @@
     "report": "reproducibility.json",
     "both_player_zips_byte_identical": true,
     "clean_clone_unit_checks": 12
+  },
+  "revision": {
+    "kind": "presentation_and_documentation_only",
+    "gameplay_evidence_from": "v0.1.0-beta.1; unchanged native code and game resources",
+    "fresh_visual_comparison": "presentation.json",
+    "resource_native_and_installer_byte_equivalence": "beta2-equivalence.json"
   }
 }

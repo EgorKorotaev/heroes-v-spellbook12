@@ -1,4 +1,4 @@
-Heroes V Spellbook12 — 0.1.0-beta.1
+Heroes V Spellbook12 — 0.1.0-beta.2
 
 Twelve spells per spread in the native 3D spellbook: two columns by three rows
 on each leaf, filled row by row. Original art, animation and icons are retained;
@@ -33,9 +33,31 @@ twelve-slot interactions and an explicit seventh-slot combat cast. Historical
 tests mainly used a 1280x960 window and Russian text. Multiplayer, H5Lobby launch,
 all resolutions/localizations and other interface mod combinations are untested.
 The native clip's small right-leaf endpoint settle is retained; it also occurs
-with the original six-slot book. Old-page text bleed is repaired by giving the
-turning paper a small thickness, preserving the static spell layout and icons.
+with the original six-slot book. Old-page text bleed is repaired by sharing
+the turning spell tessellation/skin bindings with the paper, with small paper
+thickness. The static spell layout and icon resources are retained.
 See VALIDATION.txt for checks performed on this particular release candidate.
+
+Warranty and liability
+
+The mod is provided AS IS, without warranty. To the extent permitted by
+applicable law, the authors and copyright holders of our code are not liable
+for damages, data loss or other consequences of installing or using the mod.
+Use it at your own risk; back up your profile, saves and affected game setup
+before the first installation. Full terms: LICENSE.txt (MIT).
+This is an unofficial community project. Network play, LAN and multiplayer
+game distributions are untested; launch integration with H5Lobby is absent.
+
+Feedback and contributions
+
+Bug reports, ideas, testing, translations, documentation and code are welcome.
+On GitHub, use Issues -> New issue -> Bug report / Feature request. If you
+received a private ZIP, fill in the included FEEDBACK.txt and return it to the
+person who supplied the archive. The public repository is not published yet.
+Include game/mod versions, steps, expected/actual result and, for visual issues,
+window size and a screenshot or short clip. Do not attach game EXEs/DLLs,
+full archives or personal profiles. CONTRIBUTING.md in the source explains
+testing, code contributions and Pull Requests.
 
 Developer source: docs/BUILD.txt, docs/AI-HANDOFF.txt and docs/adr/README.md.
 Original project code is MIT; game-derived resources have separate provenance

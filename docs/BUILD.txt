@@ -1,4 +1,4 @@
-Developer build — HeroesV-Spellbook12 0.1.0-beta.1
+Developer build — HeroesV-Spellbook12 0.1.0-beta.2
 
 Inputs: a working supported game folder, Python 3.10+ and requirements.txt.
 The build runs on Windows or Linux/WSL. It reads data/data.pak and the exact

@@ -1,0 +1,53 @@
+name: Ошибка / Bug report
+description: Что-то не работает или выглядит неправильно / Report a reproducible problem.
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Спасибо за наблюдение! Пиши по-русски или по-английски. Проверь похожие Issues.
+        Не знаешь точный хеш — напиши известные сведения. Не прикладывай игровые EXE/DLL,
+        полные архивы игры и личные профили. Для сети и H5Lobby поддержка пока не заявлена.
+        English is welcome; please include what you know and avoid uploading game binaries or personal data.
+  - type: textarea
+    id: environment
+    attributes:
+      label: Среда / Environment
+      description: Версии игры и мода, имя EXE, Windows, язык, разрешение, режим окна, другие моды. Хеш EXE — если известен.
+      placeholder: Universe 2.0.1; Spellbook12 0.1.0-beta.2; H5_Game.exe; Windows 11; RU; 1280x960 windowed.
+    validations:
+      required: true
+  - type: textarea
+    id: launch
+    attributes:
+      label: Запуск и контекст / Launch and context
+      description: Через что запускал? Было ли Spellbook12 is ready до загрузки? Ошибка при установке, запуске, на карте или в бою? Укажи школу, разворот, ячейку, если уместно.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Как повторить / Steps to reproduce
+      description: Короткие шаги и частота повторения. Для анимации — вперёд/назад, начало/середина/конец.
+      placeholder: "1. Открыть книгу…"
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Ожидал / Expected result
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Получил / Actual result
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Ошибка, снимок или видео / Error, screenshot or clip
+      description: Можно вставить текст или перетащить изображение/короткое видео. Сначала проверь личные пути и данные.
+    validations:
+      required: false

@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0-beta.1",
+  "version": "0.1.0-beta.2",
   "status": "ready_for_private_handoff",
   "audience": "Private handoff to one player and their AI, public GitHub candidate later",
   "license": "MIT for authored code; generated game resources documented separately",
@@ -31,9 +31,14 @@
       "id": "delivery",
       "status": "completed",
       "scope": "Versioned player/source ZIPs and local Git bundle with checksums for private handoff; no remote publication"
+    },
+    {
+      "id": "community_presentation",
+      "status": "completed",
+      "scope": "Authentic before/after captures, local badges, warranty/compatibility notices, contributor guide and bug/feature/PR templates; feedback form in both player ZIPs"
     }
   ],
   "remote_publication": "Not performed; concrete candidate first",
   "working_games": "Do not deploy to the working Universe/H55 copies during preparation",
-  "last_checkpoint": "Both engines checked in isolated games; 12 game-free checks and36 Windows checks passed. Final player ZIPs byte-identical to clean-clone builds. 8 ADRs and index committed. Temporary game/profile changes restored or removed. Local source ZIP/Git bundle and Windows handoff are the delivery stage; remote publication not performed."
+  "last_checkpoint": "beta.2 presentation prepared: authentic paired Universe captures, restored lab, community templates and notices. 12 source checks and 36 fresh Windows checks passed; both editions retain byte-identical beta.1 resources/native code/Windows scripts. Clean-clone rebuild and updated private handoff are the final delivery checks; remote publication not performed."
 }

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="165" height="22" viewBox="0 0 165 22" role="img" aria-label="multiplayer: untested">
+<title>multiplayer: untested</title>
+<clipPath id="r"><rect width="165" height="22" rx="4"/></clipPath>
+<g clip-path="url(#r)"><path fill="#373a40" d="M0 0h93v22H0z"/><path fill="#9c6b2e" d="M93 0h72v22H93z"/></g>
+<g fill="#fff" font-family="DejaVu Sans Mono,Consolas,monospace" font-size="11" text-anchor="middle"><text x="46.5" y="15">multiplayer</text><text x="129" y="15">untested</text></g>
+</svg>

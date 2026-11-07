@@ -1,0 +1,45 @@
+Spellbook12 — ошибка или предложение / bug or feature request
+
+На GitHub: Issues -> New issue -> Ошибка / Bug report или Предложение /
+Feature request. Проверь, нет ли похожего сообщения. Публичный репозиторий
+пока не опубликован. Если получил ZIP лично, заполни подходящий шаблон ниже
+и передай тому, от кого получил мод. Можно писать по-русски или по-английски.
+
+ОШИБКА / BUG REPORT
+
+Кратко / Summary:
+Версия Spellbook12 / Mod version (release.json):
+Игра, версия, имя EXE / Game, build, EXE name:
+SHA-256 EXE, если известен / EXE hash, if known:
+Windows, язык игры / Windows, game language:
+Разрешение и режим окна / Resolution and window mode:
+Другие моды / Other mods:
+Как запускал; было ли ready до карты / Launch method; ready before loading:
+Карта или бой, школа/страница/ячейка / Adventure or combat, school/page/slot:
+Шаги воспроизведения / Steps to reproduce:
+  1.
+  2.
+Ожидал / Expected:
+Получил / Actual:
+Как часто повторяется / Frequency:
+Текст ошибки, скриншот или видео / Error text, screenshot or short clip:
+
+ПРЕДЛОЖЕНИЕ / FEATURE REQUEST
+
+Кратко / Summary:
+Что неудобно, в какой ситуации / Problem and player situation:
+Какой результат хочется / Desired outcome:
+Варианты или эскиз / Alternatives or sketch:
+Игра и версия мода / Game and mod version:
+
+Версия пакета есть в release.json рядом с Install.cmd или в установленном
+Spellbook12/release.json. Не знаешь поле — укажи то, что известно.
+Package version: release.json beside Install.cmd or in installed Spellbook12/.
+Fill in what you know; an unknown hash should not stop a useful report.
+
+Не прикладывай EXE/DLL, полные игровые архивы и личные профили. Проверь снимки
+и текст ошибки на личные данные. Do not attach game binaries, full archives or
+personal profiles; review screenshots and error text for private information.
+
+Подробности для участников разработки: CONTRIBUTING.md в исходниках.
+Contributor guide: CONTRIBUTING.md in the source archive.

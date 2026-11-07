@@ -1,10 +1,22 @@
+0.1.0-beta.2 — presentation and contribution update
+
+- README with real, matched Universe six-slot / twelve-slot comparison captures,
+  local static badges and clear supported-build / multiplayer status.
+- Explicit AS IS / warranty and liability notice in RU/EN player instructions.
+- Contributor guide, GitHub bug/feature forms and a Pull Request template.
+- FEEDBACK.txt included in both player ZIPs for private handoff without GitHub.
+- Corrected the animation-repair explanation: shared paper/spell tessellation
+  and small paper thickness, preserving the native clip and static spell layout.
+- Book resources, runtime manifests/callbacks and Windows scripts are unchanged
+  from beta.1. This version does not add multiplayer or H5Lobby support.
+
 0.1.0-beta.1 — initial private release candidate
 
 - Twelve spells per spread: two columns by three rows on each physical leaf.
 - Row-major ordering, native text wrapping and original-sized icon resources.
 - Native page animation with corrected overlay depth and book controls.
-- Turning-paper thickness prevents old lower-row labels bleeding through at
-  touchdown, preserving the spell layout and native animation clip.
+- Shared paper/spell tessellation with small paper thickness prevents old labels
+  bleeding through, preserving the static spell layout and native animation clip.
 - Geometry-derived spell tooltip anchors and narrower spell selection margins.
 - Separate pinned Universe 2.0.1 and Heroes 5.5 RC19k main-engine profiles.
 - Portable builds from local game inputs; game executable files are read only.

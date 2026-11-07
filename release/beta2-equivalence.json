@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "previous_version": "0.1.0-beta.1",
+  "version": "0.1.0-beta.2",
+  "comparisons": [
+    {
+      "edition": "Universe",
+      "status": "byte_identical",
+      "files_compared": 10,
+      "includes": [
+        "book PAK",
+        "1280-byte native callbacks",
+        "native manifest",
+        "Windows installer/launcher/uninstaller scripts"
+      ],
+      "release_metadata_difference": "version only",
+      "FEEDBACK_included": true
+    },
+    {
+      "edition": "H55-RC19k",
+      "status": "byte_identical",
+      "files_compared": 10,
+      "includes": [
+        "book PAK",
+        "1280-byte native callbacks",
+        "native manifest",
+        "Windows installer/launcher/uninstaller scripts"
+      ],
+      "release_metadata_difference": "version only",
+      "FEEDBACK_included": true
+    }
+  ]
+}

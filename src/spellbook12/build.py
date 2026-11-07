@@ -20,7 +20,7 @@ FILE_DATE=(2026,11,7,0,0,0)
 LABELS={'universe':'Universe','h55':'H55-RC19k'}
 ENGINES={'universe':'H5_Game.exe','h55':'MMH55_64.exe'}
 APP_FILES=['Spellbook12.psm1','Launch.ps1','Launch.cmd','Uninstall.ps1','Uninstall.cmd']
-DOC_FILES=['README.txt','README.en.txt','LICENSE.txt','NOTICES.txt','CHANGELOG.txt','VALIDATION.txt']
+DOC_FILES=['README.txt','README.en.txt','LICENSE.txt','NOTICES.txt','CHANGELOG.txt','VALIDATION.txt','FEEDBACK.txt']
 
 
 def sha(data):return hashlib.sha256(data).hexdigest()
