@@ -1,0 +1,27 @@
+{
+  "native_profiles": [
+    {
+      "edition": "universe",
+      "callback_sha256": "548ea0a99371d7da51dff0e8e8ca240f5ef3c901ce631a0a66e2b3cd49d8fb92",
+      "callback_bytes": 1280,
+      "same_as_preceding_working_callback": true
+    },
+    {
+      "edition": "h55",
+      "callback_sha256": "8b51696efd64950a393232543243986843b21b9682a5f0925ab4e073a9641ffd",
+      "callback_bytes": 1280,
+      "same_as_preceding_working_callback": true
+    }
+  ],
+  "resource_change": {
+    "changed_members": [
+      "bin/Geometries/271579D1-7C9A-4B71-9B00-000000000012"
+    ],
+    "changed_parts": [
+      0
+    ],
+    "paper_half_thickness": 0.02,
+    "original_animation_clip_changed": false,
+    "static_spell_layout_changed": false
+  }
+}

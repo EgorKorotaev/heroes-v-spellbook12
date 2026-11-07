@@ -1,0 +1,35 @@
+Spellbook12 0.1.0-beta.1 — 2026-11-07
+
+PASSED: 12 game-free source checks; 36 Windows PowerShell 5.1 installer checks.
+The Windows tests include Unicode paths, modified files, forbidden destinations,
+legacy overlays and full rollback after a late locked-PAK uninstall failure.
+
+Universe 2.0.1: fresh isolated start and native map entry, twelve-slot book,
+64-frame forward/backward records. Egor reviewed the reported lower-left and
+upper-right animation areas after the shared paper/spell tessellation repair
+and reported that both look correct.
+
+Heroes 5.5 RC19k MMH55_64: fresh installation/start in a separate game/profile
+namespace; 15 native sites verified. Viewed all six combat spreads (72 spells),
+recorded 64 frames in each direction, clicked forward/back/close, checked their
+native tooltips and the twelfth spell tooltip. Cast Fireball from position 7:
+target count changed from 1000 to 970. The whole battle was not completed.
+
+The full 1280-byte callbacks for BOTH engines are byte-identical to the earlier
+working book. The animation repair changes only model part 0. Original native
+animation clip, fixed spell layout, icons and native instruction sites stay the
+same. The six-slot control also shows the small right-leaf endpoint settle;
+that native clip behavior is retained.
+
+Historical checks separately cover all twelve interactions and a seventh-slot
+cast; Egor played campaigns with the preceding H55 book. Those checks are not
+a fresh campaign playthrough of this paper repair.
+
+Not certified: other EXE builds, every resolution/localization, other UI mod
+combinations, multiplayer, direct H5Lobby runtime launch, new full campaign and
+Save/Load audits. EXE files are not rewritten on disk. Working game copies were
+read-only build inputs; live checks used separate test copies.
+
+Machine-readable source evidence: release/validation.json,
+release/windows-checks.json and release/native-baseline-check.json.
+Architecture decisions and rejected prototypes: docs/adr/README.md.

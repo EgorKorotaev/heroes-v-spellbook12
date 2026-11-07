@@ -1,0 +1,374 @@
+{
+  "source_sha256": "88c9dc6107b9bced0649924a86360f1c56397ee00de0413f6f2b08f865ed5519",
+  "slots_per_spread": 12,
+  "book_scale": [
+    1.25,
+    1.05
+  ],
+  "outliner_size": [
+    320,
+    292
+  ],
+  "overlay_lift": 0.04,
+  "fixed_overlay_lift": 0.0,
+  "paper_half_thickness": 0.02,
+  "within_sheet_u_scale": 1.0869565217391306,
+  "content_reference_book_width": 1.15,
+  "cast_x_bounds": [
+    [
+      -3.944406,
+      -2.519531
+    ],
+    [
+      -2.183422,
+      -0.752115
+    ],
+    [
+      0.754845,
+      2.171325
+    ],
+    [
+      2.510779,
+      3.940645
+    ]
+  ],
+  "cast_icon_horizontal_padding": 24,
+  "button_depth_fraction": 0.025,
+  "book_camera_eye": [
+    0.0,
+    -7.69662807584585,
+    15.625465510306983
+  ],
+  "button_picking": "native mesh and selector; perspective-preserving depth correction",
+  "spell_tooltip_parts": [
+    10,
+    26,
+    11,
+    27,
+    12,
+    28,
+    7,
+    35,
+    8,
+    36,
+    9,
+    37
+  ],
+  "spell_tooltip_anchors": [
+    [
+      -0.25117040306140925,
+      -0.2514520926519274,
+      0.04229065208364671,
+      0.03677497621539859
+    ],
+    [
+      -0.11530439911404264,
+      -0.26113526295045847,
+      0.04322487953342093,
+      0.03440858707249361
+    ],
+    [
+      -0.26417705349644033,
+      -0.12392697496695654,
+      0.04426001269333958,
+      0.040277761060645956
+    ],
+    [
+      -0.12159189940593931,
+      -0.13278959279574837,
+      0.04566810526750841,
+      0.03792683266735802
+    ],
+    [
+      -0.2789262593712497,
+      0.01702762854008045,
+      0.04676207860893827,
+      0.04380188546177589
+    ],
+    [
+      -0.12857542110309855,
+      0.009813584377406714,
+      0.0483877548530433,
+      0.04202654768370101
+    ],
+    [
+      0.11498147188597857,
+      -0.2614829914515175,
+      0.0426932785640938,
+      0.034511639931829055
+    ],
+    [
+      0.2510434841464069,
+      -0.2526571790660027,
+      0.042366569079685445,
+      0.037216631968238184
+    ],
+    [
+      0.12121001163872297,
+      -0.1338619310615572,
+      0.04508784491644679,
+      0.03798060266058545
+    ],
+    [
+      0.26393397091262877,
+      -0.12572983305218566,
+      0.044269333230212496,
+      0.040657166898269814
+    ],
+    [
+      0.12823415760112794,
+      0.009733123341713432,
+      0.047807297660647556,
+      0.04212621540598954
+    ],
+    [
+      0.27907736028946833,
+      0.016363112104712647,
+      0.04677278509004139,
+      0.04417555464094991
+    ]
+  ],
+  "text_layout": {
+    "left": 36,
+    "top": 176,
+    "width": 248,
+    "native_wrap": true
+  },
+  "patches": [
+    {
+      "va": "0x682afb",
+      "before": "83c606",
+      "after": "83c60c",
+      "reason": "next-page availability"
+    },
+    {
+      "va": "0x683a5e",
+      "before": "83c706",
+      "after": "83c70c",
+      "reason": "next-page presentation"
+    },
+    {
+      "va": "0x6847fa",
+      "before": "83f806",
+      "after": "83f80c",
+      "reason": "visible spell slice size"
+    },
+    {
+      "va": "0x68604f",
+      "before": "83c206",
+      "after": "83c20c",
+      "reason": "next-page bound"
+    },
+    {
+      "va": "0x686056",
+      "before": "830606",
+      "after": "83060c",
+      "reason": "next-page increment"
+    },
+    {
+      "va": "0x686095",
+      "before": "8300fa",
+      "after": "8300f4",
+      "reason": "previous-page decrement"
+    },
+    {
+      "va": "0x686b75",
+      "before": "83fa18",
+      "after": "83fa30",
+      "reason": "accept twelve material bindings"
+    },
+    {
+      "va": "0x68302b",
+      "before": "83fe48",
+      "after": "83fb30",
+      "reason": "clear hover highlighting across all twelve slots"
+    }
+  ],
+  "hook_va": 6844535,
+  "hook_before": "68740be300",
+  "extra_hooks": [
+    {
+      "va": "0x683331",
+      "before": "8b1d8cd7fd00",
+      "stub_offset": 458
+    },
+    {
+      "va": "0x683cf3",
+      "before": "3b77108b10",
+      "stub_offset": 521
+    },
+    {
+      "va": "0x683b73",
+      "before": "8b471c034714",
+      "stub_offset": 638
+    },
+    {
+      "va": "0x8904e1",
+      "before": "db4424388b17",
+      "stub_offset": 1044
+    },
+    {
+      "va": "0x6835a5",
+      "before": "8b8eb8010000",
+      "stub_offset": 1106
+    }
+  ],
+  "relocations": [
+    {
+      "offset": 14,
+      "target": 4201136
+    },
+    {
+      "offset": 40,
+      "target": 6846608
+    },
+    {
+      "offset": 48,
+      "target": 6848240
+    },
+    {
+      "offset": 58,
+      "target": 8884800
+    },
+    {
+      "offset": 70,
+      "target": 8884800
+    },
+    {
+      "offset": 87,
+      "target": 4201136
+    },
+    {
+      "offset": 113,
+      "target": 6846608
+    },
+    {
+      "offset": 121,
+      "target": 6848240
+    },
+    {
+      "offset": 131,
+      "target": 8884800
+    },
+    {
+      "offset": 143,
+      "target": 8884800
+    },
+    {
+      "offset": 160,
+      "target": 4201136
+    },
+    {
+      "offset": 186,
+      "target": 6846608
+    },
+    {
+      "offset": 194,
+      "target": 6848240
+    },
+    {
+      "offset": 204,
+      "target": 8884800
+    },
+    {
+      "offset": 216,
+      "target": 8884800
+    },
+    {
+      "offset": 233,
+      "target": 4201136
+    },
+    {
+      "offset": 259,
+      "target": 6846608
+    },
+    {
+      "offset": 267,
+      "target": 6848240
+    },
+    {
+      "offset": 277,
+      "target": 8884800
+    },
+    {
+      "offset": 289,
+      "target": 8884800
+    },
+    {
+      "offset": 306,
+      "target": 4201136
+    },
+    {
+      "offset": 332,
+      "target": 6846608
+    },
+    {
+      "offset": 340,
+      "target": 6848240
+    },
+    {
+      "offset": 350,
+      "target": 8884800
+    },
+    {
+      "offset": 362,
+      "target": 8884800
+    },
+    {
+      "offset": 379,
+      "target": 4201136
+    },
+    {
+      "offset": 405,
+      "target": 6846608
+    },
+    {
+      "offset": 413,
+      "target": 6848240
+    },
+    {
+      "offset": 423,
+      "target": 8884800
+    },
+    {
+      "offset": 435,
+      "target": 8884800
+    },
+    {
+      "offset": 453,
+      "target": 6844540
+    },
+    {
+      "offset": 496,
+      "target": 13590688
+    },
+    {
+      "offset": 503,
+      "target": 13597376
+    },
+    {
+      "offset": 516,
+      "target": 6828855
+    },
+    {
+      "offset": 633,
+      "target": 6831352
+    },
+    {
+      "offset": 652,
+      "target": 6830969
+    },
+    {
+      "offset": 1082,
+      "target": 8979687
+    },
+    {
+      "offset": 1101,
+      "target": 8979687
+    },
+    {
+      "offset": 1205,
+      "target": 6829483
+    }
+  ]
+}

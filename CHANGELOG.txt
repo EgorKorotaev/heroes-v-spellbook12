@@ -1,0 +1,14 @@
+0.1.0-beta.1 — initial private release candidate
+
+- Twelve spells per spread: two columns by three rows on each physical leaf.
+- Row-major ordering, native text wrapping and original-sized icon resources.
+- Native page animation with corrected overlay depth and book controls.
+- Turning-paper thickness prevents old lower-row labels bleeding through at
+  touchdown, preserving the spell layout and native animation clip.
+- Geometry-derived spell tooltip anchors and narrower spell selection margins.
+- Separate pinned Universe 2.0.1 and Heroes 5.5 RC19k main-engine profiles.
+- Portable builds from local game inputs; game executable files are read only.
+- Windows install/uninstall, runtime launcher and installation verification.
+- No forced test-window size, lab maps, localization overlays or personal paths.
+
+Known boundaries: lobby launch, multiplayer and other EXE builds are untested.

@@ -1,0 +1,10 @@
+{
+  "vertices": 2016,
+  "triangles": 672,
+  "margin_triangles": 72,
+  "boundary_points": {
+    "-1": 26,
+    "1": 26
+  },
+  "uv_samples": 344
+}

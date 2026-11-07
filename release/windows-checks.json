@@ -1,0 +1,153 @@
+{
+  "status": "passed",
+  "tests": 36,
+  "checks": [
+    {
+      "name": "universe/install-unicode-path",
+      "status": "passed"
+    },
+    {
+      "name": "universe/shortcut",
+      "status": "passed"
+    },
+    {
+      "name": "universe/shortcut-target",
+      "status": "passed"
+    },
+    {
+      "name": "universe/verify-installation-without-launch",
+      "status": "passed"
+    },
+    {
+      "name": "universe/duplicate-install-preserves-state",
+      "status": "passed"
+    },
+    {
+      "name": "universe/modified-callbacks-block-launch",
+      "status": "passed"
+    },
+    {
+      "name": "universe/modified-file-blocks-all-removal",
+      "status": "passed"
+    },
+    {
+      "name": "universe/locked-resource-rolls-back-all-files",
+      "status": "passed"
+    },
+    {
+      "name": "universe/successful-rollback-cleans-stage",
+      "status": "passed"
+    },
+    {
+      "name": "universe/rolled-back-installation-verifies",
+      "status": "passed"
+    },
+    {
+      "name": "universe/uninstall-removes-owned-resource",
+      "status": "passed"
+    },
+    {
+      "name": "universe/uninstall-removes-shortcut",
+      "status": "passed"
+    },
+    {
+      "name": "universe/uninstall-retains-extra-file",
+      "status": "passed"
+    },
+    {
+      "name": "universe/exe-unchanged",
+      "status": "passed"
+    },
+    {
+      "name": "universe/base-and-save-unchanged",
+      "status": "passed"
+    },
+    {
+      "name": "universe/unsupported-exe-no-install",
+      "status": "passed"
+    },
+    {
+      "name": "universe/legacy-package-preserved",
+      "status": "passed"
+    },
+    {
+      "name": "universe/executable-destination-rejected",
+      "status": "passed"
+    },
+    {
+      "name": "h55/install-unicode-path",
+      "status": "passed"
+    },
+    {
+      "name": "h55/shortcut",
+      "status": "passed"
+    },
+    {
+      "name": "h55/shortcut-target",
+      "status": "passed"
+    },
+    {
+      "name": "h55/verify-installation-without-launch",
+      "status": "passed"
+    },
+    {
+      "name": "h55/duplicate-install-preserves-state",
+      "status": "passed"
+    },
+    {
+      "name": "h55/modified-callbacks-block-launch",
+      "status": "passed"
+    },
+    {
+      "name": "h55/modified-file-blocks-all-removal",
+      "status": "passed"
+    },
+    {
+      "name": "h55/locked-resource-rolls-back-all-files",
+      "status": "passed"
+    },
+    {
+      "name": "h55/successful-rollback-cleans-stage",
+      "status": "passed"
+    },
+    {
+      "name": "h55/rolled-back-installation-verifies",
+      "status": "passed"
+    },
+    {
+      "name": "h55/uninstall-removes-owned-resource",
+      "status": "passed"
+    },
+    {
+      "name": "h55/uninstall-removes-shortcut",
+      "status": "passed"
+    },
+    {
+      "name": "h55/uninstall-retains-extra-file",
+      "status": "passed"
+    },
+    {
+      "name": "h55/exe-unchanged",
+      "status": "passed"
+    },
+    {
+      "name": "h55/base-and-save-unchanged",
+      "status": "passed"
+    },
+    {
+      "name": "h55/unsupported-exe-no-install",
+      "status": "passed"
+    },
+    {
+      "name": "h55/legacy-package-preserved",
+      "status": "passed"
+    },
+    {
+      "name": "h55/executable-destination-rejected",
+      "status": "passed"
+    }
+  ],
+  "PowerShell": "5.1.26100.9818",
+  "game_started": false,
+  "working_game_files_changed": false
+}

@@ -1,0 +1,73 @@
+Developer / AI handoff
+
+Purpose
+  Extend the existing native 3D book from six spells to twelve per spread while
+  preserving the original art, animation, native actions and tooltip behavior.
+  Scope is the cosmetic book. Campaign ports, rebalance and translations are
+  separate projects and are not included in this repository.
+
+Layout
+  Left leaf:  1 2 / 3 4 / 5 6. Right leaf: 7 8 / 9 10 / 11 12.
+  Camera scale 1.25 wide / 1.05 high; outliner 320x292; icons 128x128.
+  Text starts at (36,176), width 248; native wrapping, no inserted line breaks.
+  Only the turning leaf has an additional 0.04 surface lift.
+  The turning paper (part 0) has half-thickness 0.02 along its bind X normal.
+  Its interior reuses the moving spell triangles and exact skin bindings.
+  Paper UVs come from the original paper; narrow margins are retained and
+  subdivided at shared boundary vertices. This prevents both outgoing text
+  bleed and the mid-flip text clipping of the simple-thickness prototype.
+  Fixed paper and fixed spell surfaces retain their accepted depth.
+  The two right-hand controls are projected toward the camera by 2.5% without
+  changing their perspective projection, UVs, skinning or native action mapping.
+
+Source map
+  resources.py: XML/model edits, leaf subdivision and native text templates.
+  geometry.py: container encoding, UV clipping, interpolated skin weights,
+    shared paper/spell tessellation, projected controls and tooltip rectangles.
+  docs/adr/: reasons, rejected prototypes and validation boundaries.
+  native.py: generated x86 callbacks and reviewed instruction patches.
+  h55.py: explicit MMH55 address/register/UI-projection differences.
+  build.py: read-only local game inputs, deterministic resources and player ZIP.
+  windows/: installation ownership, verification, runtime application, removal.
+  tests/fixtures/approved-native.json: our authored reference metadata, not an EXE.
+
+Runtime behavior
+  EXE files on disk are never rewritten. The launcher verifies the installed
+  files, pinned EXE SHA and every live instruction site before changing memory.
+  It starts only that game, applies twelve-slot selection/paging/material paths,
+  registers the extra native cast interactions, adjusts the book camera and
+  preserves separate native tooltip paths for controls and spell descriptions.
+  A failed application terminates only its own newly started game process.
+  No DLL loader, launcher/lobby integration, updater or network component exists.
+
+Validation boundaries
+  The paper repair changes only part 0, including its tessellation and UV/skin
+  interpolation. Read docs/adr/README.md for decisions and rejected prototypes.
+  The full 1280-byte Universe callback remains byte-identical to the preceding
+  accepted working mod, including tooltip anchors. H55 native code also remains
+  unchanged. No experimental frame-update/material-clearing hook is shipped.
+  Native animation has a small endpoint settle on the right leaf, also visible
+  in a six-slot control. The clip is retained. Do not call it newly fixed.
+  The previous working Universe and 5.5 book was tested by Egor in-game.
+  All twelve slot interactions were checked; an explicit seventh-slot combat
+  cast was confirmed. This does not certify every spell/class/resolution.
+  New installer checks and fresh startup/render checks are recorded separately
+  in the release validation report. Do not promote a file hash or window-only
+  capture to a complete gameplay pass.
+  Public names that are aliases and matching binary hashes do not prove full
+  mod-stack compatibility. Unknown EXEs must remain rejected.
+
+Working on the book
+  Start by building against your own local supported installation.
+  Run unit checks and compare generated native code and resource member hashes.
+  Keep scene geometry, picking, highlights and action dispatch coherent; do not
+  hand-remap the forward/close action to compensate for the wrong picked part.
+  Preserve the geometry-derived icon rectangles and render-to-UI conversions.
+  Changes to layout/code invalidate the reference callback hash and require a
+  reviewed MMH55 port, not merely replacement of the expected hash constant.
+  Test actual text, paging, hover and cast interactions on an isolated game.
+  Then test Save/Load and network/lobby behavior separately if claimed.
+
+Licensing
+  Our code/documentation: MIT. Game-derived output resources retain their
+  separate provenance; see NOTICES.txt. No full game files belong in Git.

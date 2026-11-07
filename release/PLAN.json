@@ -1,0 +1,38 @@
+{
+  "version": "0.1.0-beta.1",
+  "status": "validated_preparing_git_and_artifacts",
+  "audience": "Private handoff to one player and their AI, public GitHub candidate later",
+  "license": "MIT for authored code; generated game resources documented separately",
+  "tasks": [
+    {
+      "id": "source",
+      "status": "completed",
+      "scope": "Portable resource/native builders; exact equivalence to approved mod",
+      "evidence": "release/native-baseline-check.json",
+      "facts": "Nativecallbacks remain exact working build; onlygeometrypart0 repaired by sharing spell triangles/skin withpaper, with preservedpaperUV andstitchedmargins."
+    },
+    {
+      "id": "installer",
+      "status": "completed_36_windows_checks",
+      "scope": "Windows install/uninstall and launcher, no automatic window resize"
+    },
+    {
+      "id": "tests",
+      "status": "12_unit_36_windows_and_both_live_checks_passed_clean_clone_pending",
+      "scope": "Clean-clone build; compatibility and ownership checks; Windows round trip"
+    },
+    {
+      "id": "docs",
+      "status": "completed",
+      "scope": "RU/EN player instructions, developer handoff, compatibility and MIT/credits"
+    },
+    {
+      "id": "delivery",
+      "status": "pending",
+      "scope": "Versioned ready ZIPs and source ZIP, local Git history, hashes and local release notes"
+    }
+  ],
+  "remote_publication": "Not performed; concrete candidate first",
+  "working_games": "Do not deploy to the working Universe/H55 copies during preparation",
+  "last_checkpoint": "Conformed paper accepted in Universe and freshly checked in H55 combat; slot7 Fireball completed,1000->970.12unit+36Windowspassed.8ADRs+index ready. Universe controlled assets restored; own temporaryH55game/profile removed. Git/cleanclone/delivery pending."
+}

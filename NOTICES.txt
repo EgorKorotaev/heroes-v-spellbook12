@@ -1,0 +1,23 @@
+License scope and provenance
+
+LICENSE.txt covers the original scripts, source code and documentation in this
+project. It does not relicense Heroes of Might and Magic V, Universe, Heroes 5.5,
+their executables, textures, models, fonts, text resources or other game content.
+Generated book resources are derived from the locally installed game's book.
+No original game executable, DLL, full data archive or campaign is distributed.
+
+Heroes of Might and Magic V and its game resources belong to their respective
+rights holders. Universe and Heroes 5.5 belong to their respective contributors.
+An installed, working game is required. The release modifies the running game
+and provides an authored derivative book geometry/layout overlay.
+
+The geometry format was researched using documentation from senyaak/homm5-editor:
+https://github.com/senyaak/homm5-editor/blob/main/docs/GEOMETRY_FORMAT.md
+That project is credited as a format reference, not included as a runtime library.
+
+Build dependency: pefile 2024.8.26, https://github.com/erocarrera/pefile
+Developer verification dependency: Capstone 5.0.9, https://www.capstone-engine.org/
+Dependencies are installed by the developer and are not bundled with player ZIPs.
+
+Project direction and gameplay validation: Egor.
+Implementation and release preparation: Codex, in collaboration with Egor.

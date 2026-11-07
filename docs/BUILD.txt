@@ -1,0 +1,47 @@
+Developer build — HeroesV-Spellbook12 0.1.0-beta.1
+
+Inputs: a working supported game folder, Python 3.10+ and requirements.txt.
+The build runs on Windows or Linux/WSL. It reads data/data.pak and the exact
+edition's executable. Universe also reads its installed spellbook text templates
+from texts.pak and, if present, universe_mod_texts_ru.pak.
+
+Windows PowerShell, from a clean source checkout:
+  py -3 -m venv .venv
+  .venv\Scripts\python.exe -m pip install -r requirements.txt
+  .venv\Scripts\python.exe build.py --edition universe --game-root "C:\Games\Universe"
+  .venv\Scripts\python.exe build.py --edition h55 --game-root "C:\Games\Heroes55"
+
+Linux / WSL:
+  python3 -m venv .venv
+  .venv/bin/python -m pip install -r requirements.txt
+  .venv/bin/python build.py --edition universe --game-root /path/to/Universe
+  .venv/bin/python build.py --edition h55 --game-root /path/to/Heroes55
+
+Each build produces an unpacked player package and matching ZIP in dist/.
+--output selects another output parent. Existing outputs are never overwritten;
+choose a fresh output directory for a second build. Output inside the game
+folder is rejected. Building never starts the game or writes an executable.
+
+Game-free checks:
+  python -m unittest discover -s tests -v
+The tests use our authored native metadata and numeric tooltip anchors, not
+proprietary game binaries. Optional developer dependency: requirements-dev.txt.
+
+Windows integration:
+  tests/windows_roundtrip.ps1 takes both unpacked packages, paths to the two
+  supported EXEs, and a JSON report path. It creates temporary game-like folders,
+  copies those EXEs for hash checks, and never starts a game. It checks install,
+  shortcut, verification-only launch, removal, altered files, unsupported builds,
+  Unicode paths, preservation of unrelated data and forbidden destinations.
+  A locked resource also forces a late uninstall failure and full rollback.
+
+Supported EXE SHA-256:
+  Universe H5_Game.exe
+    88c9dc6107b9bced0649924a86360f1c56397ee00de0413f6f2b08f865ed5519
+  Heroes 5.5 RC19k MMH55_64.exe
+    20210e51e39e61d0d0b40ed04321f3d01715b52abbe2b2fc2ed78f0453a55fac
+
+src/spellbook12/h55.py retains reviewed translation constants for other exact
+MMH55 binaries. The player installer intentionally accepts only the two declared
+live-tested edition profiles. Other engine targets require an explicit reviewed
+release change and separate game tests.

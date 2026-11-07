@@ -1,0 +1,77 @@
+{
+  "version": "0.1.0-beta.1",
+  "date": "2026-11-07",
+  "status": "private_candidate_validated",
+  "unit_checks": {
+    "passed": 12,
+    "game_required": false
+  },
+  "windows_checks": {
+    "passed": 36,
+    "report": "windows-checks.json",
+    "game_started_in_installer_tests": false
+  },
+  "native_compatibility": {
+    "report": "native-baseline-check.json",
+    "new_animation_fix_adds_native_instructions": false
+  },
+  "universe": {
+    "build": "2.0.1",
+    "exe_sha256": "88c9dc6107b9bced0649924a86360f1c56397ee00de0413f6f2b08f865ed5519",
+    "fresh_isolated_start": true,
+    "runtime_sites_verified": 14,
+    "native_map_entry": true,
+    "twelve_slot_render": true,
+    "forward_and_backward_animation_frames": 64,
+    "manual_user_review": "Egor reported both previously problematic places look correct after shared paper/spell tessellation",
+    "paper_clipping_simple_thickness_prototype_shipped": false
+  },
+  "h55": {
+    "build": "RC19k main MMH55_64",
+    "exe_sha256": "20210e51e39e61d0d0b40ed04321f3d01715b52abbe2b2fc2ed78f0453a55fac",
+    "fresh_installer_and_start": true,
+    "runtime_sites_verified": 15,
+    "profile_namespace_verified_from_live_cache": true,
+    "native_map_entry": true,
+    "combat_spreads_viewed": 6,
+    "combat_slots_visible": 72,
+    "last_spread_next_arrow_absent": true,
+    "forward_and_backward_animation_frames": 64,
+    "forward_backward_close_buttons_clicked": true,
+    "button_tooltips_near_controls": true,
+    "slot12_spell_tooltip": true,
+    "slot7_combat_cast": {
+      "spell": "Fireball / Огненный шар",
+      "position": "first row, first column of the right leaf",
+      "displayed_cost": 18,
+      "mana_before": 500,
+      "mana_after": null,
+      "target_count_before": 1000,
+      "target_count_after": 970,
+      "effect": "Native target preview, projectile and completed target-count change observed",
+      "full_battle_completed": false
+    },
+    "uninstall_after_live_check": "passed"
+  },
+  "historical_gameplay": {
+    "all_twelve_interactions_preceding_native_code": true,
+    "explicit_seventh_slot_cast_preceding_book": true,
+    "campaign_played_by_user_with_preceding_h55_book": true,
+    "new_paper_does_not_equal_new_full_campaign_playthrough": true
+  },
+  "not_claimed": [
+    "other EXE hashes",
+    "all resolutions and languages",
+    "all other UI mod combinations",
+    "network play",
+    "H5Lobby runtime launch",
+    "fresh full campaign replay",
+    "fresh Save/Load audit"
+  ],
+  "restoration": {
+    "universe_controlled_book_and_launcher_restored": true,
+    "working_game_exes_not_written": true,
+    "working_game_archives_not_used_as_test_destinations": true,
+    "h55_temporary_game_and_profile_removed": true
+  }
+}
